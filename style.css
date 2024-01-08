@@ -182,9 +182,15 @@ button {
 
 }
 
-img{
-    width: 463px;
-    height: 463px;
+img {
+    width: 425px;
+    height: 450px;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
 }
 
 .new-new {
@@ -212,7 +218,7 @@ img{
     gap: 50px;
     box-shadow: 8px 8px 10px burlywood;
     border-radius: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
 }
 
@@ -225,5 +231,106 @@ img{
 .part3 {
     border: 2px solid rgb(253, 253, 253);
     width: 400px;
+
+}
+
+
+
+
+/* holiday discount offer  style start  */
+
+.holiday-title {
+    color: #070211;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.holiday-header {
+    color: #F00;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday-description {
+    color: rgba(82, 37, 170, 0.6);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+
+}
+
+.holiday-image {
+    width: 400px;
+    height: 400px;
+    border: 2px solid rgb(87, 131, 189);
+    margin: auto;
+    background-image: url('./images/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgb(182, 151, 211);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* Our Awesome Portfolio section style start */
+
+.portfolio-title {
+    color: #F00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+.portfolio-header {
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 30px;
+
+
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 20px;
+  
+}
+
+
+/* awesome section style */
+.column-1{
+    display: flex;
+    gap: 0px;
+    justify-content: space-around;
+    padding-right: 30px;
+}
+img:hover{
+    /* border: 2px solid blueviolet; */
+    box-shadow: 8px 8px 15px rgb(216, 158, 216);
+    border-radius: 50px;
 
 }
